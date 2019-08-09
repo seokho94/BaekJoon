@@ -1,0 +1,26 @@
+package Practice;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+
+public class Q1181 {
+	//(1) length 비교
+	//(2) 동일 length에서 첫번째 아스키 코드값 비교(작은 값이 먼저)
+	// if 첫번째 아스키 코드값이 같다면 다음 글자 비교 같다면 다음~
+	//(3) 하나씩 출력
+	//*****중복 단어는 한개만 출력******
+	public static void main(String args[]) {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		try{
+			int N = br.read();
+			for(int i=0; i<N; i++) {
+				
+			}
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+}
