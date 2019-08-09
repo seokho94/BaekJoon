@@ -1,0 +1,22 @@
+package Practice;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Q1929 {
+	static int remove(int A, int B) {
+		int result = (int)Math.pow(A,B);
+		return result;
+	}
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+		int M = sc.nextInt();
+		int N = sc.nextInt();
+		HashSet<Integer> hs = new HashSet<>();
+		for(int i=M; i<=N; i++) {
+			
+		}
+		Iterator it = hs.iterator();
+	}
+}
