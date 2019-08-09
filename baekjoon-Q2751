@@ -1,0 +1,36 @@
+package Practice;
+
+import java.util.Scanner;
+
+public class Q2751 {
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		int array[] = new int[N];
+		for(int i=0; i<N; i++) {
+			array[N]=sc.nextInt();
+		}
+		sc.close();
+		mergeSort(array,array.length);
+	}
+	public static int mergeSort(int A[], int N) {
+		int mid = N/2;
+		int arr1[] = new int[N/2];
+		int arr2[] = new int[N-N/2];
+		for(int i=0; i<N/2; i++) {
+			arr1[i]=A[i];
+		}
+		for(int i=N/2; i<N; i++) {
+			arr2[i]=A[i];
+		}
+		mergeSort(arr1,arr1.length);
+		mergeSort(arr2,arr2.length);
+		merge(A,arr1,arr2);
+		return N;
+	}
+	public static int merge(int array[], int arr1[], int arr2[]) {
+		int i=0, j=0, t=0;
+		
+		return i;
+	}
+}
